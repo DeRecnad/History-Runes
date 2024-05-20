@@ -6,14 +6,18 @@
     <title>Древнеславянские Руны</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="background">
     <div class="container">
-        <button id="prev" class="nav-button">⬅️</button>
+        <button id="prev" class="nav-button">
+			<img src="pictures/left.png" alt="Previous" class="nav-img">
+		</button>
         <div class="rune-container">
-            <img id="rune-image" src="" alt="Руна">
+            <img id="rune-image" src="#" alt="Руна">
             <div id="rune-description" class="description"></div>
         </div>
-        <button id="next" class="nav-button">➡️</button>
+        <button id="next" class="nav-button">
+			<img src="pictures/right.png" alt="Next" class="nav-img">
+		</button>
     </div>
 
     <script src="script.js"></script>

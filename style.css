@@ -8,6 +8,17 @@ body {
     margin: 0;
 }
 
+
+.background {
+  background-image: url("pictures/background.png");
+  backdrop-filter: blur(5px);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -15,6 +26,7 @@ body {
     border: 1px solid #ccc;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	border-radius: 10px;
 }
 
 .rune-container {
@@ -32,13 +44,33 @@ body {
     color: #333;
 }
 
+.nav-img{
+	height: 35px; 
+	width: auto; 
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
 .nav-button {
-    background-color: #008CBA;
+    background-color: white;
     color: white;
     border: none;
     padding: 10px;
     cursor: pointer;
-    font-size: 18px;
+	height: 50px;
+	width: 50px;
+	position: relative;
+	border-radius: 25%;
+}
+
+.nav-button:hover{
+	background-color: lightgrey;
+    color: white;
+    border: none;
 }
 
 .nav-button:focus {
