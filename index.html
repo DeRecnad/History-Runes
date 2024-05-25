@@ -8,16 +8,19 @@
 </head>
 <body class="background">
     <div class="container">
-        <button id="prev" class="nav-button">
-			<img src="pictures/left.png" alt="Previous" class="nav-img">
-		</button>
+        <button id="prev" class="nav-button" style="right: 5%">
+            <img src="pictures/left.png" alt="Previous" class="nav-img">
+        </button>
         <div class="rune-container">
+            <h2 id="rune-name" class="rune-name">Название Руны</h2>
             <img id="rune-image" src="#" alt="Руна">
-            <div id="rune-description" class="description"></div>
+            <div id="rune-description" class="description">Краткое описание руны</div>
+			<br>
+            <div id="rune-full-description" class="full-description">Подробное описание руны</div>
         </div>
-        <button id="next" class="nav-button">
-			<img src="pictures/right.png" alt="Next" class="nav-img">
-		</button>
+        <button id="next" class="nav-button" style="left: 5%">
+            <img src="pictures/right.png" alt="Next" class="nav-img">
+        </button>
     </div>
 
     <script src="script.js"></script>

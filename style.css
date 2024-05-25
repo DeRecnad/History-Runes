@@ -21,16 +21,19 @@ body {
 
 .container {
     display: flex;
-    align-items: center;
+	justify-content: center;
     background-color: white;
     border: 1px solid #ccc;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 	border-radius: 10px;
+	height: 500px;
+	width: 400px;
 }
 
 .rune-container {
     text-align: center;
+	width: 250px;
 }
 
 #rune-image {
@@ -45,9 +48,9 @@ body {
 }
 
 .nav-img{
+	position: absolute;
 	height: 35px; 
 	width: auto; 
-	position: absolute;
 	top: 0;
 	bottom: 0;
 	left: 0;
@@ -57,14 +60,17 @@ body {
 
 .nav-button {
     background-color: white;
+	display: flex;
+	justify-content: center;
     color: white;
     border: none;
     padding: 10px;
     cursor: pointer;
+	top: 50%;
 	height: 50px;
 	width: 50px;
-	position: relative;
 	border-radius: 25%;
+	position: relative;
 }
 
 .nav-button:hover{
