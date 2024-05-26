@@ -134,5 +134,17 @@ document.getElementById('next').addEventListener('click', () => {
     updateRune();
 });
 
+document.getElementById('toggleButton').addEventListener('click', function() {
+    const text = document.getElementById('toggleText');
+    if (text.classList.contains('hidden')) {
+        text.classList.remove('hidden');
+        text.style.display = 'block';
+    } else {
+        text.classList.add('hidden');
+        text.style.display = 'none';
+    }
+});
+
+
 // Инициализация
 updateRune();
